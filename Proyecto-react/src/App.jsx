@@ -8,9 +8,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <ChakraProvider>
-    <navBar/>
-    <itemListConteiner title= 'Tienda'/>
+      <ChakraProvider>
+    <NavBar/>
+    <ItemListConteiner title= 'Tienda'/>
     
     </ChakraProvider>
   

@@ -10,24 +10,23 @@ import {
     MenuDivider,
   } from '@chakra-ui/react'
 
-const navbar = () => {
+const NavBar = () => {
   return (
     <div>
         <Menu>
   <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
-    Actions
+    Menú
   </MenuButton>
   <MenuList>
-    <MenuItem>Download</MenuItem>
-    <MenuItem>Create a Copy</MenuItem>
-    <MenuItem>Mark as Draft</MenuItem>
-    <MenuItem>Delete</MenuItem>
-    <MenuItem>Attend a Workshop</MenuItem>
+    <MenuItem>Packaging</MenuItem>
+    <MenuItem>Branding</MenuItem>
+    <MenuItem>Productos digitales</MenuItem>
+  
   </MenuList>
 </Menu>
-      <cartWidget/>
+      <CartWidget/>
     </div>
   )
 }
 
-export default navbar
+export default NavBar
