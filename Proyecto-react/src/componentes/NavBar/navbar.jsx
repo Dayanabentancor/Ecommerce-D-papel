@@ -1,4 +1,8 @@
 import React from 'react'
+import CartWidget from '../CartWidget/cartwidget'
+import { Button } from '@chakra-ui/react'
+import {ChevronDownIcon} from '@chakra-ui/react'
+
 import {
     Menu,
     MenuButton,
